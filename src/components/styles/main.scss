@@ -1,0 +1,17 @@
+@import "./reset";
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;500;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #eeeeef;
+  background: #f8f8fa;
+}
+
+.App {
+  min-height: 100vh;
+  transition: all 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.App.dark-mode-active {
+  background: #15151c;
+}
